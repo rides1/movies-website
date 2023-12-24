@@ -38,7 +38,7 @@ form {
     height: 43px;
     border-radius: 11px;
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 
 input {
@@ -54,4 +54,17 @@ input {
     height: 350px;
     width: 300px;
     border-radius: 19px;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px 10px;
+}
+
+.card {
+    border-radius: 19px;
+    padding: 15px;
+    text-align: center;
+    background-color: #151f30;
 }
