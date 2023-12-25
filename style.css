@@ -5,6 +5,7 @@
 body {
     background-color: #131720;
     font-family: sans-serif;
+    
 }
 
 h3 {
@@ -54,7 +55,14 @@ input {
     height: 350px;
     width: 300px;
     border-radius: 19px;
+    margin: auto;
+    opacity: 70%;
 }
+
+.thumbnail:hover {
+    opacity: 100%;
+    box-shadow: 0 0 6px 1px rgb(255, 255, 255);
+  }
 
 .column {
     float: left;
